@@ -1,0 +1,76 @@
+div.slideshow {
+    overflow: hidden;
+}
+
+div.mask {
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+}
+
+div.opaque {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    background: rgba(0,0,0,0.4);
+}
+
+div.opaque-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 600px;
+    background: rgba(0,0,0,0.4);
+}
+
+div.slide {
+    width: 960px;
+    float: left;
+    position: relative;
+}
+
+div.content {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+
+div.slide img {
+    width: 100%;
+}
+
+div.slide h1, div.slide h2 {
+    font-weight: 300;
+    background: #fff;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+}
+
+div.slide h2 {
+    font-size: 18px;
+}
+
+div.price h2 {
+    background: #00adef;
+    color: #fff;
+    font-weight: 700;
+}
+
+a.next {
+    position: absolute;
+    left: 200px;
+    top: 400px;
+    z-index: 1000;
+}
+
+a.prev {
+    position: absolute;
+    right: 200px;
+    top: 400px;
+    z-index: 1000;
+}
+
